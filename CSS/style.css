@@ -1,6 +1,96 @@
 @import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-#applauncher{
-    font-size: 18px; 
-    color: #c0c0c0;
+#page-container {
+    height: 100vh;
+    position: relative;
+}
+
+body{
+    background-color: white;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+nav{
+    padding: 25px 30px 0px 30px;
+}
+
+.nav-wrap {
+    width: 100%;
+    height: 20px;
+    display: inline-block;
+}
+.first li {
+    float: left;
+}
+
+.second li{
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+}
+
+#applauncher {
+    font-size: 18px;
+    color: #747474;
+}
+
+.sign-in {
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    color: white;
+    background-color: #4583EC;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar{
+    border: 1px solid #DFE1E5;
+    border-radius: 24px;
+    width: 582px;
+    height: 44px;
+}
+
+#search-bar img {
+    width: 24px;
+    height: 24px;
+    float: right;
+    padding: 10px 18px;
+}
+
+#footer-wrap{
+    border: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    height: 30px;
+    width: 100vw;
+}
+
+footer {
+    color: #5F6368;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    text-decoration: none;
+    padding: 0px 20px;
 }
